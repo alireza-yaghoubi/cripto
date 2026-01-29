@@ -1,0 +1,31 @@
+.continerSearch{
+    background: #1d1d1d;
+    width: 20%;
+    position: absolute;
+    overflow: hidden;
+    overflow-y:visible;
+    height: 60vh;
+    border-radius: 5px;
+}
+.continerSearch::-webkit-scrollbar{
+    display: none;
+}
+.calemsCoine{
+    padding: 10px;
+display: flex;
+align-items: center;
+margin-top: 10px;
+border-bottom: 1px solid #212121cc;
+}
+.calemsCoine img{
+    width: 25px;
+    height: 25px;
+}
+.calemsCoine p{
+    margin-left: 10px;
+}
+.loding{
+    display: flex;
+    justify-content: center;
+    
+}

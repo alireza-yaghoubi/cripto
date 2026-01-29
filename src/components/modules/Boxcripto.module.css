@@ -1,0 +1,63 @@
+.continer {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+}
+.exit {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #d33636;
+  color: #ffff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 30px 0 0 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chart{
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-50% , -50%);
+  
+    border: 2px solid #131321f4;
+    background: #09090ce4;
+    border-radius: 30px;
+}
+.graph{
+  width: 760px;
+  height: 300px;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+ 
+}
+.name img{
+  width: 50px; 
+  height: 50px;
+  margin-right: 10px;
+}
+.butems .activ{
+  background: #0067de;
+  color: #ffff;
+}
+.butems button{
+padding: 4px 20px;
+cursor: pointer;
+background: none;
+border: 1px solid #0067de;
+color: #0067de;
+margin: 0 20px;
+border-radius: 5px;
+}

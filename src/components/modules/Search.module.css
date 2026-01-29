@@ -1,0 +1,23 @@
+.continer{
+   margin: 10px 80px;
+}
+.searchinput{
+    width: 29%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #1d1d1d;
+    color: #ffffff;
+    border-radius: 5px;
+    padding:15px 5px;
+    margin: 5px;
+}
+.targetserch{
+     /* height: 25px; */
+    border: none;
+    outline: none;
+    background: #1d1d1d;
+    color: #ffffff;
+    border-radius: 5px;
+    padding:10px 15px;
+}
